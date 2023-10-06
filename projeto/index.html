@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <img src="Delivery.png" alt="">
+    </header>
+
+    <div class="box-1">
+        <form class="search-container" action="/pagina-de-busca" method="get">
+            <div class="search-input-container">
+                <img class="search-icon" src="lu.svg" alt="Ícone de busca" />
+                <input type="text" id="busca" name="q" placeholder="Digite sua pesquisa aqui" onkeydown="if(event.key==='Enter'){buscar(); return false;}" />
+            </div>
+        </form>
+    </div>
+
+    <main>
+        <div class="bloco">
+            <img class="icons" src="img/martini-glass-solid.svg" alt="">
+            <p class="menu">Bebidas</p>
+        </div>
+
+        <div class="bloco">
+            <img  class="icons" src="img/burger-solid.svg" alt="">
+            <p class="menu">Lanches</p>
+        </div>
+
+        <div class="bloco">
+            <img class="icons" src="img/cookie-bite-solid.svg" alt="">
+            <p class="menu">Doces</p>
+        </div>
+
+    </main>
+</body>
+</html>
