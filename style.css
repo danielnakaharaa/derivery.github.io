@@ -1,0 +1,110 @@
+
+
+
+
+
+
+
+/*----------Mobile-----------*/
+
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}/* Seu arquivo de estilo (style.css) */
+
+/* Estilo para o cabeçalho */
+.header {
+    background: #00FF47;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 4.6875rem;
+}
+
+/* Estilo para a caixa de busca */
+.box-1 {
+    text-align: center;
+    padding: 20px;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+    background: #EDEDED;
+    border-radius: 1.0625rem;
+    width: 100%; /* Faz a caixa de busca se expandir horizontalmente */
+    max-width: 20.625rem; /* Largura máxima da caixa de busca */
+    margin: 0 auto;
+    box-sizing: border-box; /* Garante que as bordas e o padding não aumentem a largura */
+    overflow: hidden; /* Evita que o conteúdo saia da caixa */
+}
+
+.search-input-container {
+    display: flex;
+    align-items: center; /* Centraliza verticalmente */
+    background: #EDEDED;
+    border-radius: 1.0625rem;
+    padding: 0px 22px;
+    max-width: 20.625rem; /* Largura máxima da caixa de busca */
+    margin: 0 auto;
+    width: 100%; /* Faz a caixa de busca se expandir horizontalmente */
+    justify-content: center; /* Centraliza horizontalmente */
+}
+
+/* Estilo para o ícone de busca */
+.search-icon {
+    width: 24px; /* Ajuste o tamanho do ícone conforme necessário */
+    height: 24px; /* Ajuste o tamanho do ícone conforme necessário */
+    pointer-events: none;
+}
+/* Estilo para a caixa de texto de busca */
+#busca {
+    flex-grow: 1;
+    height: 3.1875rem;
+    border: none;
+    outline: none;
+    background: transparent;
+    color: #818181;
+    font-family: Inter;
+    font-size: 1.375rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 0px 0px 0px 15px;
+}
+
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Estilize cada bloco (div) para alinhar o conteúdo centralmente e empilhar o texto abaixo do ícone */
+.bloco {
+    text-align: center;
+    margin: 20px; /* Espaçamento entre os blocos */
+    border-radius: 0.8125rem;
+    background: #E6E6E6;
+    width: 4.65906rem;
+    height: 3.4375rem;
+    flex-shrink: 0;
+    
+}
+
+/* Estilize os ícones */
+.icons {
+    width: 2.27275rem;
+    height: 2.10356rem;
+    margin-top: 10px;
+}
+.menu{
+    margin: 10px 0px;
+    color: #000;
+    font-family: sans-serif;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
