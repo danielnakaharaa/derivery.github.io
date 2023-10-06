@@ -1,0 +1,38 @@
+
+ 
+  
+  .bloco:hover {
+    transition: 1s ease-in-out;
+    background: #06ff00;
+  }
+  
+  .bloco:hover svg {
+    stroke-dashoffset: -480;
+  }
+  
+  .bloco span {
+    color: white;
+    font-size: 18px;
+    font-weight: 100;
+  }
+
+
+  /*botao + */
+
+  .plus {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%; /* Torna o botão redondo */
+    background-color:#00ff30; /* Cor de fundo do botão */
+    border: none; /* Remove a borda */
+    color: #fff; /* Cor do texto */
+    font-size: 20px; /* Tamanho do texto */
+    cursor: pointer; /* Altera o cursor para um ponteiro ao passar o mouse */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.plus{
+    font-weight: bold;
+}

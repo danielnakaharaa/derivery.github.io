@@ -11,8 +11,15 @@ body{
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    background: #f2f2f2;
 }/* Seu arquivo de estilo (style.css) */
-
+p{
+    margin: 0px;
+    color: #000;
+    font-family: sans-serif;
+    font-size: 1.125rem;
+    font-weight: 700;
+}
 /* Estilo para o cabeçalho */
 .header {
     background: #00FF47;
@@ -31,7 +38,8 @@ body{
 .search-container {
     display: flex;
     align-items: center;
-    background: #EDEDED;
+    background: #ffffff;
+    border: 1px solid;
     border-radius: 1.0625rem;
     width: 100%; /* Faz a caixa de busca se expandir horizontalmente */
     max-width: 20.625rem; /* Largura máxima da caixa de busca */
@@ -43,7 +51,7 @@ body{
 .search-input-container {
     display: flex;
     align-items: center; /* Centraliza verticalmente */
-    background: #EDEDED;
+    background: #ffffff;
     border-radius: 1.0625rem;
     padding: 0px 22px;
     max-width: 20.625rem; /* Largura máxima da caixa de busca */
@@ -65,11 +73,9 @@ body{
     border: none;
     outline: none;
     background: transparent;
-    color: #818181;
     font-family: Inter;
     font-size: 1.375rem;
     font-style: normal;
-    font-weight: 700;
     line-height: normal;
     padding: 0px 0px 0px 15px;
 }
@@ -84,12 +90,17 @@ main {
 /* Estilize cada bloco (div) para alinhar o conteúdo centralmente e empilhar o texto abaixo do ícone */
 .bloco {
     text-align: center;
-    margin: 20px; /* Espaçamento entre os blocos */
-    border-radius: 0.8125rem;
-    background: #E6E6E6;
-    width: 4.65906rem;
-    height: 3.4375rem;
+    margin: 10px 10px;
     flex-shrink: 0;
+    width: 100px;
+    height: 100px;
+    background-color: #ffffff;
+    border-radius: 50%;
+
+    cursor: pointer;
+    outline: none;
+    transition: 1s ease-in-out;
+    text-decoration: none;
     
 }
 
@@ -107,4 +118,81 @@ main {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+}
+
+
+
+/* comidas */
+
+
+#grid-section{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+.section-food{
+    display: grid;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+.item{
+    display: grid;
+    
+}
+.price-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.comidas{
+    width: 7rem;
+    height: 4.75rem;
+    flex-shrink: 0;
+}
+
+
+
+
+
+
+
+/* Footer */
+#menu-food{
+    color: #000;
+    font-family:sans-serif;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 7.25rem;
+    background: #00CD39;
+}
+.footer > p{
+    
+    color: #FFF;
+    font-family: sans-serif;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+    margin-top: 4px;
+}
+.footer{
+    text-align: center;
+}
+.icons-footer {
+    color: #FFF; /* Defina a cor desejada, neste caso, branco (#FFF) */
 }
