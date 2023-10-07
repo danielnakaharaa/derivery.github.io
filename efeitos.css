@@ -38,12 +38,13 @@
 }
 
 .section-food:hover{
-  transform: scale(1.05);
+  transform: scale(1.1);
 }
 .section-food{
-    padding: 10px 20px;
+    padding: 10px 0px;
     color: #fff; /* Cor do texto branco */
     border: none;
     cursor: pointer;
     transition: transform 0.2s; 
+    max-width: 95%;
 }

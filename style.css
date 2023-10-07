@@ -135,6 +135,7 @@ main {
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin-bottom: 7.25rem;
+    justify-items: center;
 }
 
 .section-food{
