@@ -193,7 +193,7 @@ main {
     bottom: 18px;
 }
 #promocao{
-    max-width: 250px;
+    max-width: 61%;
     margin: 0 auto;
     position: relative;
 }
