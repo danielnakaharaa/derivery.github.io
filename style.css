@@ -128,9 +128,14 @@ main {
 #grid-section{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    margin-bottom: 7.25rem;
+    margin-bottom: 2.25rem;
 }
 
+#grid-section-1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 7.25rem;
+}
 
 .section-food{
     display: grid;
@@ -158,9 +163,39 @@ main {
 
 
 
-
-
-
+/*Promocao comida*//* Estilos para o título "Promoção" */
+.promocao-title {
+    font-size: 2.5rem;
+    color: #333;
+    text-align: center;
+    margin-top: 20px;
+    position: relative;
+}
+.promocao-title::after {
+    content: "";
+    display: block;
+    width: 30px;
+    height: 5px;
+    background: #00FF47;
+    position: absolute;
+    right: 0px;
+    top: 23px;
+}
+.promocao-title::before {
+    content: "";
+    display: block;
+    width: 30px;
+    height: 5px;
+    background: #00FF47;
+    position: absolute;
+    left: 0px;
+    bottom: 18px;
+}
+#promocao{
+    max-width: 250px;
+    margin: 0 auto;
+    position: relative;
+}
 
 /* Footer */
 #menu-food{
