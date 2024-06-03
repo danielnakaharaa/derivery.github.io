@@ -46,68 +46,11 @@
    
         <section id="grid-section">
             
-            <section class="section-food">
-                <div>
-                    <img class="comidas" src="imgs/strogonoff-de-frango.jpg" alt="">
-                </div>
-
-                <div class="item">
-                    <p class="description">Lorem Ipsum</p>
-                    <div class="price-container">
-                        <p class="price">R$ 100</p>
-                        <p class="plus">+</p>
-                    </div>
-                </div>
-            </section>
+           
 
 
 
-            <section class="section-food">
-                <div>
-                    <img class="comidas" src="imgs/1453442812.jpg" alt="">
-                </div>
-
-                <div class="item">
-                    <p>Lorem enpsi</p>
-                    <div class="price-container">
-                        <p class="price">R$ 100</p>
-                        <p class="plus">+</p>
-                    </div>
-                </div>
-            </section>
-
-            <section class="section-food">
-                <div>
-                    <img class="comidas" src="imgs/frango_assado_delicia.jpg" alt="">
-                </div>
-
-                <div class="item">
-                    <p>Lorem enpsi</p>
-                    <div class="price-container">
-                        <p class="price">R$ 100</p>
-                        <p class="plus">+</p>
-                    </div>
-                </div>
-            </section>
-
-            <section class="section-food">
-                <div>
-                    <img class="comidas" src="imgs/a9086ee41b582fb62614124bc7420085.jpg" alt="">
-                </div>
-
-                <div class="item">
-                    <p>Lorem enpsi</p>
-                    <div class="price-container">
-                        <p class="price">R$ 100</p>
-                        <p class="plus">+</p>
-                    </div>
-                </div>
-            </section>
-
-
-            <section>
-
-            </section>
+            
         </section>
 
 
@@ -179,7 +122,32 @@
 
             </section>
         </section>
-
+      
+            <!-- Aqui serão adicionados os cards de pedidos -->
+            <aside class="container-aside">
+                <div class="cart--area">
+                    <div class="menu-closer" onclick="sair()">❌</div>
+                    <h1>Suas Compras</h1>
+                    <div class="cart">  <section id="pedido-section"> </section></div>
+                    <div class="cart--details">
+                        <div class="cart--totalitem subtotal">
+                            <span>Subtotal</span>
+                            <span>R$ --</span>
+                        </div>
+                        <div class="cart--totalitem desconto">
+                            <span>Desconto (-10%)</span>
+                            <span>R$ --</span>
+                        </div>
+                        <div class="cart--totalitem total big">
+                            <span >Total</span>
+                            <span id="total">R$ --</span>
+                        </div>
+                        <div class="cart--finalizar">Finalizar a compra</div>
+                    </div>
+                </div>
+            </aside>
+       
+        <!-- <input type="text" id="indiceAlteracao"> -->
 
     <footer>
         <div class="footer">
@@ -187,13 +155,17 @@
             <p>Home</p>
         </div>
         <div class="footer">
+            <span class="show" id="qtd-item"></span>
             <img class="icons-footer" src="img/clipboard-list-solid.svg" width="32" height="24"alt="">
-            <p>Pedidos</p>
+            <p id="pedido">Pedidos</p>
         </div>
         <div class="footer">
             <img class="icons-footer" src="img/user-solid.svg"width="32" height="24" alt="">
             <p>Perfil</p>
         </div>
     </footer>
+
+    
+    <script src="script.js"></script>
 </body>
 </html>
